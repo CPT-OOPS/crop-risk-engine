@@ -1,2 +1,18 @@
-# crop-risk-engine
-Full-stack Python system for early detection of crop failure risk using rainfall, temperature and yield analytics with a Streamlit frontend and PDF reporting.  If you want a slightly more aggressive one:  Data-driven early warning platform for district-level crop failure risk assessment with real-time analytics and automated PDF reports.
+
+# 🌾 Crop Failure Early Warning System
+
+Full-stack analytics system to detect early crop failure risk using rainfall, temperature and yield data.
+
+## Features
+- Upload district CSV file
+- Live anomaly detection
+- Risk scoring engine
+- PDF report generator
+- Streamlit frontend
+
+## Tech Stack
+Python, Pandas, Streamlit, ReportLab
+
+## Run Locally
+pip install streamlit pandas reportlab
+python -m streamlit run app.py
